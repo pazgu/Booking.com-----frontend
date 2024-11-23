@@ -36,7 +36,7 @@ This repository contains the frontend implementation for the Booking.com clone p
 ### Prerequisites
 * **Node.js** (v18 or later)
 * **NPM or Yarn**
-* 
+
 ### Steps
 1. Clone the repository:
    ```bash
@@ -48,9 +48,10 @@ This repository contains the frontend implementation for the Booking.com clone p
    ```npm install ```
 
 3. Configure environment variables: Create a .env file in the root directory with the following variables:
-   ```VITE_GOOGLE_MAPS_API_KEY = your_api_key
-      VITE_GOOGLE_CLIENT_ID= your_google_client_id
-      VITE_API_URL=  https://your-backend-api-url.com
+   ```
+   VITE_GOOGLE_MAPS_API_KEY = your_api_key
+   VITE_GOOGLE_CLIENT_ID= your_google_client_id
+   VITE_API_URL=  https://your-backend-api-url.com
    ```
 
 5. Start the development server:
