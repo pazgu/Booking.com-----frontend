@@ -2,7 +2,7 @@
 
 This repository contains the frontend implementation for the Booking.com clone project. Built using React, Redux, and React Query, this frontend is designed to provide a seamless user experience for hotel search, booking, and management.
 
-## Features
+## 🚀 Features
 
 - **Responsive UI**: A mobile-friendly, responsive interface for users to browse and book hotels.
 - **Hotel Search**: Advanced search with filters for price, rating, location, and amenities.
@@ -12,7 +12,7 @@ This repository contains the frontend implementation for the Booking.com clone p
 - **Dynamic Pricing and Availability**: Real-time updates for room prices and availability.
 - **Interactive Maps**: Integrated Google Maps for hotel location and navigation.
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - **React**: Component-based frontend framework.
 - **Redux Toolkit**: State management for global state like filters and authentication.
@@ -30,7 +30,7 @@ This repository contains the frontend implementation for the Booking.com clone p
 ## Integrations
 - **Google Maps API**: Location mapping.
 - **React Hook Form & Zod**: Form management with schema validation.
-- **Axios**: Simplified HTTP requests
+- **Axios**: Simplified HTTP requests.
 
 ### ⚡ Installation
 ## Prerequisites
@@ -48,15 +48,10 @@ This repository contains the frontend implementation for the Booking.com clone p
    ```npm install ```
 
 3. Configure environment variables: Create a .env file in the root directory with the following variables:
-   ```PORT=5000
-   MYSQL_HOST=your-mysql-host
-   MYSQL_USER=your-mysql-username
-   MYSQL_PASSWORD=your-mysql-password
-   MYSQL_DATABASE=your-database-name
-   JWT_SECRET=your-secret-key
-   EMAIL_USER=your-email
-   EMAIL_PASS=your-email-password
-   ```
+   ```VITE_GOOGLE_MAPS_API_KEY = your_api_key
+      VITE_GOOGLE_CLIENT_ID= your_google_client_id
+      VITE_API_URL=  https://your-backend-api-url.com
+         ```
 
 5. Start the development server:
     ```bash
@@ -69,14 +64,14 @@ This repository contains the frontend implementation for the Booking.com clone p
     npm start
     ```
 
-### API Endpoints
+### 🌐 API Endpoints
 * Communicates with the backend for:
 * Fetching hotel and room details.
 * User authentication.
 * Reviews and ratings.
 * Booking reservations and availability checks.
   
-### Scripts
+### 🔧 Scripts
 * npm run dev: Starts the development server.
 * npm run build: Builds the app for production.
 * npm start: Start the production server.
