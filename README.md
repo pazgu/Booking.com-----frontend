@@ -33,13 +33,16 @@ This repository contains the frontend implementation for the Booking.com clone p
 - **Axios**: Simplified HTTP requests
 
 ### ⚡ Installation
-
+## Prerequisites
+* **Node.js** (v18 or later)
+* **NPM or Yarn**
+* 
 ### Steps
-
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/booking-clone-backend.git
-   cd booking-clone-backend```
+   git clone https://github.com/your-username/booking-clone-frontend.git
+   cd booking-clone-frontend
+   ```
 
 2. Install dependencies:
    ```npm install ```
@@ -55,13 +58,6 @@ This repository contains the frontend implementation for the Booking.com clone p
    EMAIL_PASS=your-email-password
    ```
 
-4. Set up the database:
-  * Use the provided SQL scripts to initialize the MySQL schema.
-  * Run the seed scripts to populate sample data:
-    ```bash
-    npm run seed
-    ```
-
 5. Start the development server:
     ```bash
     npm run dev
@@ -74,49 +70,33 @@ This repository contains the frontend implementation for the Booking.com clone p
     ```
 
 ### API Endpoints
-**Authentication**
-* POST /api/auth/register: Register a new user.
-* POST /api/auth/login: Login and receive a JWT.
-  
-**Hotels**
-* GET /api/hotels: Fetch hotels with filters and pagination.
-* POST /api/hotels: Add a new hotel (admin only).
-* GET /api/hotels/:id: Get details of a specific hotel.
-  
-**Rooms**
-* GET /api/rooms: Fetch available rooms for a hotel.
-* POST /api/rooms: Add a new room to a hotel.
-  
-**Reservations**
-* POST /api/reservations: Create a reservation.
-* GET /api/reservations/:id: Get details of a reservation.
-
-**Reviews**
-* POST /api/reviews: Add a review for a hotel.
-* GET /api/reviews/:hotelId: Fetch reviews for a hotel.
+* Communicates with the backend for:
+* Fetching hotel and room details.
+* User authentication.
+* Reviews and ratings.
+* Booking reservations and availability checks.
   
 ### Scripts
-* npm run dev: Run the server in development mode with nodemon.
-* npm run build: Compile the TypeScript code to JavaScript.
+* npm run dev: Starts the development server.
+* npm run build: Builds the app for production.
 * npm start: Start the production server.
-* npm run seed: Seed the database with initial data.
   
 ### 📂 Folder Structure
    ```bash
-      src/
-   ├── controllers/       # Define the business logic for API endpoints
-   ├── routes/            # Define API routes
-   ├── models/            # Database schemas and models
-   ├── middleware/        # Custom middleware functions
-   ├── utils/             # Utility functions (e.g., email notifications)
-   ├── config/            # Database and environment configurations
-   └── index.ts           # Entry point of the application 
+     src/
+      ├── api/                 # API service functions
+      ├── assets/              # Static assets like images and fonts
+      ├── components/          # Reusable components
+      ├── contexts/            # Context providers
+      ├── hooks/               # Custom React hooks
+      ├── pages/               # Application pages (e.g., Home, Search, Booking)
+      ├── redux/               # Redux slices and store configuration
+      ├── styles/              # Global and component-specific styles
+      ├── utils/               # Utility functions
 ```
 
-### Future Improvements
-   * Add real-time availability updates with WebSockets.
-   * Implement other booking functionlities such as rent a car and book an attraction.
-
+### 📜 License
+This project is licensed under the MIT License.
 
 
 
