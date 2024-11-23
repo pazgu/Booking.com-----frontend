@@ -32,8 +32,8 @@ This repository contains the frontend implementation for the Booking.com clone p
 - **React Hook Form & Zod**: Form management with schema validation.
 - **Axios**: Simplified HTTP requests.
 
-### ⚡ Installation
-## Prerequisites
+## ⚡ Installation
+### Prerequisites
 * **Node.js** (v18 or later)
 * **NPM or Yarn**
 * 
@@ -51,7 +51,7 @@ This repository contains the frontend implementation for the Booking.com clone p
    ```VITE_GOOGLE_MAPS_API_KEY = your_api_key
       VITE_GOOGLE_CLIENT_ID= your_google_client_id
       VITE_API_URL=  https://your-backend-api-url.com
-         ```
+   ```
 
 5. Start the development server:
     ```bash
