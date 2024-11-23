@@ -14,22 +14,25 @@ This repository contains the frontend implementation for the Booking.com clone p
 
 ## Tech Stack
 
-- **Node.js**: Runtime environment for building server-side applications.
-- **Express.js**: Web framework for routing and middleware.
-- **TypeScript**: Strongly typed JavaScript for maintainable and error-free code.
-- **MySQL**: Relational database for storing hotel, user, and reservation data.
-- **MongoDB**: Non-relational database for storing users.
-- **JWT**: JSON Web Token for secure authentication.
-- **Nodemailer**: Email service for sending notifications.
-- **dotenv**: Manage environment variables.
+- **React**: Component-based frontend framework.
+- **Redux Toolkit**: State management for global state like filters and authentication.
+- **React Query**: Efficient server-state management for fetching and caching.
+- **TypeScript**: Strongly typed codebase for reliability and scalability.
+- **Tailwind CSS**: Utility-first framework for styling.
+- **Vite**: Lightning-fast development server and build tool.
 
-## Installation
+## UI Libraries
+- **Shadcn**: Prebuilt, customizable components.
+- **Radix UI**: Accessible components for dialogs, sliders, and popovers.
+- **React Icons**: Extensive collection of SVG icons.
+- **Embla Carousel**: Smooth, responsive carousel for image galleries.
 
-### Prerequisites
+## Integrations
+- **Google Maps API**: Location mapping.
+- **React Hook Form & Zod**: Form management with schema validation.
+- **Axios**: Simplified HTTP requests
 
-- Node.js (v18 or later)
-- MySQL Server
-- MongoDB Server 
+### ⚡ Installation
 
 ### Steps
 
@@ -98,7 +101,7 @@ This repository contains the frontend implementation for the Booking.com clone p
 * npm start: Start the production server.
 * npm run seed: Seed the database with initial data.
   
-### Folder Structure
+### 📂 Folder Structure
    ```bash
       src/
    ├── controllers/       # Define the business logic for API endpoints
